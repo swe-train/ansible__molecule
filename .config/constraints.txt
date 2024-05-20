@@ -5,9 +5,9 @@
 #    pip-compile --all-extras --no-annotate --output-file=.config/constraints.txt --strip-extras --unsafe-package=resolvelib --unsafe-package=ruamel-yaml-clib --unsafe-package=wcmatch pyproject.toml
 #
 ansi2html==1.9.1
-ansible-compat==4.1.11
+ansible-compat==24.5.1
 ansible-core==2.16.6
-ansible-lint==24.2.3
+ansible-lint==24.5.0
 attrs==23.2.0
 babel==2.15.0
 beautifulsoup4==4.12.3
@@ -36,6 +36,7 @@ ghp-import==2.1.0
 griffe==0.45.1
 htmlmin2==0.1.13
 idna==3.7
+importlib-metadata==7.1.0
 iniconfig==2.0.0
 jinja2==3.1.4
 jsmin==3.0.1
@@ -43,7 +44,7 @@ jsonschema==4.22.0
 jsonschema-specifications==2023.12.1
 linkchecker==10.4.0
 markdown==3.6
-markdown-exec==1.8.1
+markdown-exec==1.8.2
 markdown-include==0.8.1
 markdown-it-py==3.0.0
 markupsafe==2.1.5
@@ -70,13 +71,13 @@ pexpect==4.9.0
 pillow==10.3.0
 pip==24.0
 pipdeptree==2.20.0
-platformdirs==4.2.1
+platformdirs==4.2.2
 pluggy==1.5.0
 ptyprocess==0.7.0
 pycparser==2.22
 pygments==2.18.0
 pymdown-extensions==10.8.1
-pytest==8.2.0
+pytest==8.2.1
 pytest-mock==3.14.0
 pytest-plus==0.7.0
 pytest-testinfra==10.1.0
@@ -104,6 +105,7 @@ urllib3==2.2.1
 watchdog==4.0.0
 webencodings==0.5.1
 yamllint==1.35.1
+zipp==3.18.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # resolvelib
